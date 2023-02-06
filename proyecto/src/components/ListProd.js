@@ -1,10 +1,12 @@
+/* Página que permite listar los productos disponibles */
+
 export default function ListProd(){
     return (
             
       <div className="bg-light" style={{marginTop:20, padding:20}}>
 
       <div className="h3">
-        Listado De Productos
+        List of Products
       </div>
 
       <div className="table-responsive">
@@ -16,7 +18,7 @@ export default function ListProd(){
               <thead className="text-center" style={{background:"lightgray"}}>
                   <tr>
                       <th>#</th>
-                      <th>Titulo</th>
+                      <th>Title</th>
                       <th>X</th>
                       <th>X</th>
                       <th>X</th>
